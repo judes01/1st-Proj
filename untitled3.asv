@@ -1,0 +1,15 @@
+%%Task6 
+%% y = randn
+%y = randn(n)
+%y = randn(m,n)
+%y = randn([m n])
+
+
+Noisefs = 44100;
+NoiseDur = 2;
+Noise = randn(NoiseDur * Noisefs,1);
+sound(NoiseDur, Noisefs);
+
+
+signalAnalyzer
+
